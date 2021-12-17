@@ -6,6 +6,7 @@
 推荐使用 tyarn 来进行包管理，可以极大地减少 install 的时间和失败的概率，并且完全兼容 npm。
 
 如果喜欢使用 npm 而不是 yarn，可以使用 cnpm, 安装速度比 tyarn 更快，但是与 npm 不是完全兼容。
+
 Install `node_modules`:
 
 ```bash
@@ -84,5 +85,11 @@ $ cd myapp && npm install
 $ tyarn add @umijs/preset-ui -D
 // 或
 $ npm install --save-dev @umijs/preset-ui
+```
+
+启动
+
+```bash
+yarn start
 ```
 

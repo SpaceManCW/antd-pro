@@ -309,6 +309,12 @@ export default defineConfig({
       ],
     },
     {
+      name: 'mall',
+      icon: 'HeatMapOutlined',
+      path: '/mall',
+      component: './mall/mall',
+    },
+    {
       path: '/',
       redirect: '/dashboard/analysis',
     },

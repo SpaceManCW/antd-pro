@@ -24,4 +24,7 @@
 
 ## mock
 - 启动的时候start: no-mock 就可以不使用mock的数据
-- 
+
+## services写请求
+- 在service文件夹新建文件。从umi导入request
+- export一个async方法。
